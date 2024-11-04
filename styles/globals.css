@@ -1,0 +1,51 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Typography */
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Global Colors */
+body {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Layout */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Spacing */
+.p-4 {
+  padding: 1rem;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+  .md\:container {
+    max-width: 960px;
+  }
+}
