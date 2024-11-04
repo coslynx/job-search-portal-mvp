@@ -1,0 +1,60 @@
+# Node.js dependencies
+node_modules/
+
+# Build artifacts
+dist/
+build/
+
+# IDE specific files
+.vscode/
+*.suo
+*.user
+*.sln
+*.tmp
+*.log
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.tmp
+*.bak
+*.swo
+*.suo
+*~
+
+# Logs and cache
+logs/
+cache/
+
+# Configuration files for specific tools
+.env.local
+.next/cache/
+.next/serverless/
+.next/static/
+
+# Next.js specific files
+.next/cache/
+.next/serverless/
+.next/static/
+.next/serverless/functions/
+.next/serverless/pages/
+.next/serverless/routes/
+
+# Supabase configurations
+supabase_client.js
+
+# Database migration files
+migrations/
+
+# API Documentation (Swagger)
+swagger.json
+docs/
+
+# Frontend build artifacts (if using a separate frontend build)
+frontend/dist/
+
+# Other platform specific files (if applicable)
+.env
